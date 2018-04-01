@@ -57,7 +57,7 @@ for i,user in enumerate(lst):
             'profile_url': f.profile_image_url, # 48x48 thumbnail
         }
     
-vk = [(v / (math.log(round1_data[k]['followers'] + 1, 2) + 1.0),k) for k,v in counts.items()]
+vk = [(v / (math.log(round1_data[k]['followers'] + 100, 2) + 1.0),k) for k,v in counts.items()]
 vk.sort(reverse=True)
 birds = [x[1] for x in vk]
 
