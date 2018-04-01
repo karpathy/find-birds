@@ -4,7 +4,7 @@
 
 The goal is to find people on Twitter ("birds", haha) who you should follow.
 
-The source of signal is that the people you follow follow other people you probably should follow but so far do not.
+The source of signal is that the people you follow, follow other people you probably should follow but so far do not.
 
 ## installation
 
